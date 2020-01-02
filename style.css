@@ -1,24 +1,21 @@
-.center {
+div {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:205px;
     width: 25%;
+    text-align: center;
 }
-
-ul {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+ul.topnav li {
     display: inline;
 }
 
-#topleftnav {
-    float: left;
-}
-
-#toprightnav {
+li.right {
     float: right;
 }
