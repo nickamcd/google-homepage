@@ -1,21 +1,44 @@
-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:205px;
-    width: 25%;
-    text-align: center;
-}
-ul.topnav {
+ul {
+    font-family: Arial;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-ul.topnav li {
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
     display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topnav li {
+    font-size: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.botnav {
+    height: 20px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+    background-color: rgb(212, 212, 212);
 }
 
 li.right {
     float: right;
+}
+
+#query-bar{
+    width: 350px;
 }
