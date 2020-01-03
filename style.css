@@ -21,7 +21,18 @@ ul li {
     font-size: 15px;
 }
 
+.topnavleft {
+    position: fixed;
+    left: 0;
+}
+
+.topnavright {
+    position: fixed;
+    right: 0;
+}
+
 .center {
+    padding: 150px 0;
     text-align: center;
 }
 
@@ -35,8 +46,14 @@ ul li {
     background-color: rgb(212, 212, 212);
 }
 
-li.right {
-    float: right;
+.botnavleft {
+    position: fixed;
+    left: 0;
+}
+
+.botnavright {
+    position: fixed;
+    right: 0;
 }
 
 #query-bar{
